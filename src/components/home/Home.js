@@ -68,7 +68,7 @@ class Home extends Component {
             },
 
             {
-                menuItem: <Menu.Item key='TAB3'><Icon name='eye' />Détails</Menu.Item>,
+                menuItem: <Menu.Item key='TAB3'><Icon name='eye' /></Menu.Item>,
                 render: () => <Details details={details} loader={isdetailing} favoritesAdd={favoritesAdd} handleOpen={this.handleOpen} favorites={favorites} />,
             }
         ]
